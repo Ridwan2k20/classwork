@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Form 2</title>
+</head>
+
+<body>
+    <form>
+        <label for="username">
+            Username: &reg;
+        </label>
+        <input type="text" name="username" id="username"><br><br>
+
+        <label for="password">
+            Password:
+        </label>
+        <input type="text" name="password" id="password"><br><br>
+
+        <label for="city">
+            City of <br> Employment
+        </label>
+        <input type="text" name="city" id="city"><br><br>
+
+        <label for="server">
+            Web server:
+        </label>
+        <select name="server" id="server">
+            <option value="">
+                Chose a server
+            </option>
+            <option value="Chrome">
+                Chrome
+            </option>
+            <option value="Opera_Mini">
+                Opera Mini
+            </option>
+            <option value="Firefox">
+                Firefox
+            </option>
+        </select><br><br>
+
+        <label>
+            Please specify <br> your role:
+        </label> <br>
+        <input type="radio" name="role" id="Admin" value="Admin"> <label for="Admin">Admin</label><br>
+        <input type="radio" name="role" id="Engineer" value="Engineer"> <label for="Engineer">Engineer</label><br>
+        <input type="radio" name="role" id="Manager" value="Manager"> <label for="Manager">Manager</label><br>
+        <input type="radio" name="role" id="Guest" value="Guest"> <label for="Guest">Guest</label><br><br>
+
+        <label for="">
+            Single Sign-on <br> to the following:
+        </label> <br>
+        <input type="checkbox" name="option" id="mail" value="mail"> <label for="mail"> Mail</label> <br>
+        <input type="checkbox" name="option" id="payoll" value="payroll"> <label for="payroll">Payroll</label><br>
+        <input type="checkbox" name="option" id="Self_service" value="Self_service"> <label for="Self_service"> Self-service</label><br><br>
+        
+        <input type="submit" value="Login">
+        <button type="submit">
+            Reset
+        </button>
+    </form>
+</body>
+
+</html>

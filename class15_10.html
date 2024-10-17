@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Form</title>
+</head>
+
+<body>
+    <form>
+        <label for="First Name">
+            First Name
+        </label> <br>
+        <input type="text" name="first_name" id="First Name" value="" required> <br><br>
+
+        <label for="Last Name">
+            Last name
+        </label> <br>
+        <input type="text" name="last_name" id="Last Name" required> <br><br>
+
+        <label for="email">
+            Email
+        </label><br>
+        <input type="email" name="email" id="email" required> <br><br>
+
+        <label for="password">
+            Password
+        </label> <br>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <label for="Number">
+            Phone Number
+        </label><br>
+        <input type="Number" name="Number" id="Number" required><br><br>
+
+        <label for="file">
+            Id-Card
+        </label><br>
+        <input type="file" multiple name="file" id="file" required> <br><br>
+
+        <label>
+            Chose your Hobbies
+        </label> <br>
+        <input type="checkbox" name="Hobbies" id="Dancing" value="Dancing"> <label for="Dancing"> Dancing</label><br>
+        <input type="checkbox" name="Hobbies" id="Cooking" value="Cooking"> <label for="Cooking"> Cooking</label><br>
+        <input type="checkbox" name="Hobbies" id="Baking" value="Baking"> <label for="Baking"> Baking</label><br> <br>
+
+        <label>
+            Chose Profession
+        </label> <br>
+        <input type="radio" name="Profession" id="Lawyer" value="Lawyer" required> <label for="Lawyer"> Lawyer
+        </label><br>
+        <input type="radio" name="Profession" id="Doctor" value="Doctor" required> <label for="Doctor"> Doctor
+        </label><br>
+        <input type="radio" name="Profession" id="Engineer" value="Engineer" required> <label for="Engineer">
+            Engineer</label><br><br>
+
+        <label for="date">
+            Date
+        </label> <br>
+        <input type="date" name="date" id="date"> <br><br>
+
+        <label for="time">
+            Time
+        </label><br>
+        <input type="time" name="time" id="time"> <br><br>
+
+        <label for="datetime-local">
+            Date & Time
+        </label> <br>
+        <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+        <label for="Country">
+            Chose Your Country
+        </label>
+        <select name="Country" id="Country" required>
+            <option value="">
+                Choose
+            </option>
+            <option value="Nigeria">
+                Nigeria
+            </option>
+            <option value="Algeria">
+                Algeria
+            </option>
+            <option value="UK">
+                United Kingdom
+            </option>
+            <option value="US">
+                United States
+            </option>
+        </select> <br><br>
+
+        <label for="commet">
+            Commet
+        </label><br>
+        <textarea name="textarea" id="commet" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Sign up">
+        <button type="submit">
+            login
+        </button>
+    </form>
+</body>
+
+</html>
